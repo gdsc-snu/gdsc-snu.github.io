@@ -1,0 +1,34 @@
+.headerDiv{
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    color:rgb(146, 142, 137);
+    font-size: 1rem;
+}
+.title{
+    font-size: 2rem;
+}
+
+.headerLogo{
+    height: 3vmin;
+    margin: 1.5rem;
+}
+
+@media (max-width: 425px) {
+  .title{
+      font-size: 1.13rem;
+  }
+  .headerLogo{
+      margin: 1rem;
+  }
+  .headerDiv{
+      font-size: .8rem;
+      margin-top: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+    .title{
+        font-size: .9rem;
+    }
+}

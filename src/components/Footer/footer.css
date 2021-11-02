@@ -1,0 +1,40 @@
+.footerDiv{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerSubDiv{
+    margin-left: 40rem;
+}
+
+.greenCircle{
+    height: 9.5vmin;
+}
+
+.logo{
+    height: 4vmin;
+    margin: 2rem
+}
+
+@media (max-width: 1024px){
+    .footerSubDiv{
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .footerSubDiv{
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .footerSubDiv{
+        margin-left: 0rem;
+    }
+    .greenCircle{
+        height: 7.5vmin;
+    }
+}
