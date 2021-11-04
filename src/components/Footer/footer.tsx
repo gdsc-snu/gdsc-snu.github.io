@@ -10,15 +10,23 @@ const Footer = () => {
     return (
         <div className='footerDiv'>
             <div  className='footerSubDiv'>
-                <img src={linkedin} className="logo" alt="google developer student club" />
-                <img src={facebook} className="logo" alt="google developer student club" />
-                <img src={twitter} className="logo" alt="google developer student club" />
-                <img src={youtube} className="logo" alt="google developer student club" />
+                <a  href="https://www.linkedin.com/company/gdsc-snu/" target="_blank">
+                    <img src={linkedin} className="logo" alt="google developer student club" />
+                </a>
+                <a href="https://www.facebook.com/gdscsnu" target="_blank">
+                    <img src={facebook} className="logo" alt="google developer student club" />
+                </a>
+                <a  href="https://twitter.com/gdscsnu" target="_blank">
+                    <img src={twitter} className="logo" alt="google developer student club" />
+                </a>
+                <a  href="https://www.youtube.com/channel/UCTCtURT5tHNngMwkBz-MUBA" target="_blank">
+                    <img src={youtube} className="logo" alt="google developer student club" />
+                </a>
             </div>
             <img src={greenCircle} className="greenCircle" alt="google developer student club" />
 
         </div>
     )
-}
+} 
 
 export default Footer
