@@ -5,6 +5,7 @@
 
 .topCircle{
     height: 18vmin;
+    margin-top: 1rem;
 }
 .bodySubDiv{
     display:flex;
@@ -102,6 +103,7 @@
       }
       .topCircle {
           height: 22vmin;
+          margin-top: .5rem;
       }
       .bodyHead{
           margin-left: 2rem;
