@@ -4,6 +4,7 @@ import orangecircle from '../../svgimageFiles/leftOrangeCircle.svg';
 import dottedDesign from '../../svgimageFiles/dottedDesign.svg'
 //import { Redirect } from "react-router-dom";
 
+
 import './body.css'
 
 const Body = () => {
@@ -21,6 +22,7 @@ const Body = () => {
                 </p> 
                 <a className='bodyLink' href="https://gdsc.community.dev/sister-nivedita-university-kolkata/" target="_blank"> Join Us</a>
                 <button className='bodyButton' style={{background: 'white', color: 'blue'}}> Contact us</button>
+
                 <br />
                 <img src={dottedDesign} className="dottedDesign" alt="google developer student club" />
 
