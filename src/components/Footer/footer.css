@@ -1,6 +1,6 @@
 .footerDiv{
     width: 100vw;
-    height: 5vh;
+    height: 4vh;
     display: flex;
     justify-content: space-between;
 }
@@ -15,7 +15,8 @@
 
 .logo{
     height: 4vmin;
-    margin: 2rem
+    margin-left: 4rem;
+    margin-top: 1rem;
 }
 
 @media (max-width: 1024px){
@@ -33,6 +34,9 @@
 @media (max-width: 425px) {
     .footerSubDiv{
         margin-left: 0rem;
+    }
+    .logo{
+        margin:2rem;
     }
     .greenCircle{
         height: 7.5vmin;

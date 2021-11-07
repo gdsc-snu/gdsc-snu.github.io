@@ -5,6 +5,7 @@
 
 .topCircle{
     height: 18vmin;
+    margin-top: 1rem;
 }
 .bodySubDiv{
     display:flex;
@@ -20,8 +21,20 @@
     border-color: #4285F4;
     margin-top: 1rem;
     margin-left: 2rem;
+    color: antiquewhite;
+    font-size: .9rem;
 }
-
+.bodyLink{
+  background: #4285F4;
+  color: antiquewhite;
+  text-decoration: none;
+  margin-left: 2rem;
+  padding: .5rem;
+  border-radius: 1rem;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  font-size: .9rem;
+}
 .bodyText{
     color:#6D6D6D;
     font-size: 1.5rem;
@@ -84,11 +97,13 @@
         display: none;
       }
       .App-logo2{
-          height: 70vmin;
-          display:block;
+          height: 60vmin;
+          display:flex;
+          margin-left: 2rem;;
       }
       .topCircle {
           height: 22vmin;
+          margin-top: .5rem;
       }
       .bodyHead{
           margin-left: 2rem;
@@ -96,6 +111,12 @@
       .bodyButton{
         width: 5rem;
         margin-top: 1.5rem;
+        font-size: .8rem;
+      }
+      .bodyLink{
+        font-size: .8rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
       }
     }
   
