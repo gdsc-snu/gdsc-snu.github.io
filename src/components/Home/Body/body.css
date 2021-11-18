@@ -75,6 +75,12 @@
     display: none;
 }
 
+.overlayDiv{
+  width:100vw;
+  height: 100vh;
+  background: rgba(207, 204, 204, 0.3);
+  border-radius: 5rem;
+}
   @media (max-width: 1024px){
     .bodyDiv{
       margin-top: 2rem;

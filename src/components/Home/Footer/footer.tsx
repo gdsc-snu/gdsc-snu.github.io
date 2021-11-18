@@ -1,9 +1,9 @@
 import './footer.css'
-import greenCircle from '../../svgimageFiles/greenCircle.svg'
-import linkedin from '../../svgimageFiles/linkedinLogo.svg'
-import youtube from '../../svgimageFiles/youtubeLogo.svg'
-import twitter from '../../svgimageFiles/twitterLogo.svg'
-import facebook from '../../svgimageFiles/facebookLogo.svg'
+import greenCircle from '../../../svgimageFiles/greenCircle.svg'
+import linkedin from '../../../svgimageFiles/linkedinLogo.svg'
+import youtube from '../../../svgimageFiles/youtubeLogo.svg'
+import twitter from '../../../svgimageFiles/twitterLogo.svg'
+import facebook from '../../../svgimageFiles/facebookLogo.svg'
 
 
 const Footer = () => {

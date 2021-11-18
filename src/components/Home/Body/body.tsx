@@ -1,12 +1,16 @@
-import logo from '../../svgimageFiles/logo.svg';
-import topcircle from '../../svgimageFiles/top-circle.svg';
-import orangecircle from '../../svgimageFiles/leftOrangeCircle.svg';
-import dottedDesign from '../../svgimageFiles/dottedDesign.svg'
+import logo from '../../../svgimageFiles/logo.svg'
+import topcircle from '../../../svgimageFiles/top-circle.svg';
+import orangecircle from '../../../svgimageFiles/leftOrangeCircle.svg';
+import dottedDesign from '../../../svgimageFiles/dottedDesign.svg'
 //import { Redirect } from "react-router-dom";
 
 import './body.css'
 
-const Body = () => {
+export interface BodyProps{
+    setToggleBody:(b: boolean) => void,
+}
+
+const Body = ( {setToggleBody} :BodyProps) => {
     return (
         <div className='bodyDiv' >
             <div className='bodySubDiv'> 
@@ -19,7 +23,7 @@ const Body = () => {
                       web, mobile, and google technologies in a peer-to-peer 
                       learning environment. 
                 </p> 
-                <a className='bodyLink' href="https://gdsc.community.dev/sister-nivedita-university-kolkata/" target="_blank"> Join Us</a>
+                <button onClick={ () => setToggleBody(false)}className='bodyLink'> Join Us</button>
                 <a className='bodyLinkContact' href="https://discord.com/invite/c5fEPAsjcg" target="_blank"> Contact Us</a>
                 <br />
                 <img src={dottedDesign} className="dottedDesign" alt="google developer student club" />
