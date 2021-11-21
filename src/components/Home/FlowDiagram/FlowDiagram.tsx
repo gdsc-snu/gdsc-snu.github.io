@@ -18,9 +18,7 @@ function FlowDiagram({ setToggleBody }: BodyProps) {
               <hr className='hr'/>
                   <FaDiscord className= { discordOn ? `icons`: `iconsDone` }/>
               <hr className='hr'/>
-              <a   onClick={() => {setToggleBody(true) }}>
-                  < MdDone className= { done ? `icons` :`iconsDone` }/>
-          </a>
+              <p onClick={() => {setToggleBody(true) }}>< MdDone className= { done ? `icons` :`iconsDone` }/></p>
           </div>
 
           <div className='gifDiv'>
@@ -28,12 +26,12 @@ function FlowDiagram({ setToggleBody }: BodyProps) {
           { 
               toggleLink ?
               <div onClick={() => {setToggleLink(false); setdiscordOn(true)} } >
-              <a className='redirect'  href="https://gdsc.community.dev/accounts/login/?next=/sister-nivedita-university-kolkata/" target="_blank" >
+              <a className='redirect'  href="https://gdsc.community.dev/accounts/login/?next=/sister-nivedita-university-kolkata/" target="_blank" rel="noreferrer">
                   Become a member
               </a>
               </div> :
               discordOn ? 
-              <a className='redirect' href="https://discord.com/invite/c5fEPAsjcg" target="_blank" onClick={ () => {setdiscordOn(false); setDone(true)}} >
+              <a className='redirect' href="https://discord.com/invite/c5fEPAsjcg" target="_blank" onClick={ () => {setdiscordOn(false); setDone(true)}} rel="noreferrer">
                   Join Discord
              </a>:
              done ?

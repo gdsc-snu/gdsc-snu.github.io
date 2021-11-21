@@ -25,7 +25,7 @@ const Body = ( {setToggleBody} :BodyProps) => {
                       learning environment. 
                 </p> 
                 <button onClick={ () => setToggleBody(false)}className='bodyLink'> Join Us</button>
-                <a className='bodyLinkContact' href="https://discord.com/invite/c5fEPAsjcg" target="_blank"> Contact Us</a>
+                <a className='bodyLinkContact' href="https://discord.com/invite/c5fEPAsjcg" target="_blank" rel="noreferrer"> Contact Us</a>
                 <br />
                 <img src={dottedDesign} className="dottedDesign" alt="google developer student club" />
 

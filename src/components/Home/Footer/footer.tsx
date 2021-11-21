@@ -10,16 +10,16 @@ const Footer = () => {
     return (
         <div className='footerDiv'>
             <div  className='footerSubDiv'>
-                <a  href="https://www.linkedin.com/company/gdsc-snu/" target="_blank">
+                <a  href="https://www.linkedin.com/company/gdsc-snu/" target="_blank" rel="noreferrer">
                     <img src={linkedin} className="logo" alt="google developer student club" />
                 </a>
-                <a href="https://www.facebook.com/gdscsnu" target="_blank">
+                <a href="https://www.facebook.com/gdscsnu" target="_blank" rel="noreferrer">
                     <img src={facebook} className="logo" alt="google developer student club" />
                 </a>
-                <a  href="https://twitter.com/gdscsnu" target="_blank">
+                <a  href="https://twitter.com/gdscsnu" target="_blank" rel="noreferrer">
                     <img src={twitter} className="logo" alt="google developer student club" />
                 </a>
-                <a  href="https://www.youtube.com/channel/UCTCtURT5tHNngMwkBz-MUBA" target="_blank">
+                <a  href="https://www.youtube.com/channel/UCTCtURT5tHNngMwkBz-MUBA" target="_blank" rel="noreferrer">
                     <img src={youtube} className="logo" alt="google developer student club" />
                 </a>
             </div>
