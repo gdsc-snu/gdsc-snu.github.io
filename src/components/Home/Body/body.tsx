@@ -4,6 +4,7 @@ import orangecircle from '../../../svgimageFiles/leftOrangeCircle.svg';
 import dottedDesign from '../../../svgimageFiles/dottedDesign.svg'
 //import { Redirect } from "react-router-dom";
 
+
 import './body.css'
 
 export interface BodyProps{
