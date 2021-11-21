@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.css';
-import Body from './components/Body/body';
-import Footer from './components/Footer/footer';
-import Header from './components/Header/header';
+import Home from './components/Home/Home'
 
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Body/>
-        <Footer/>
+        <Home/>
     </div>
   );
 }

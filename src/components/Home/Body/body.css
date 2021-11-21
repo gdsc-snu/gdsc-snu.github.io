@@ -6,6 +6,7 @@
 .topCircle{
     height: 18vmin;
     margin-top: 1rem;
+    margin-right: 1rem;;
 }
 .bodySubDiv{
     display:flex;
@@ -35,6 +36,18 @@
   padding-right: 2.2rem;
   font-size: .9rem;
 }
+
+.bodyLinkContact{
+  background: #e4eaf7;
+  color: rgb(60, 94, 245);
+  text-decoration: none;
+  margin-left: 2rem;
+  padding: .5rem;
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: .9rem;
+}
 .bodyText{
     color:#6D6D6D;
     font-size: 1.5rem;
@@ -62,6 +75,12 @@
     display: none;
 }
 
+.overlayDiv{
+  width:100vw;
+  height: 100vh;
+  background: rgba(207, 204, 204, 0.3);
+  border-radius: 5rem;
+}
   @media (max-width: 1024px){
     .bodyDiv{
       margin-top: 2rem;
@@ -85,7 +104,7 @@
   
   @media (max-width: 425px) {
     .bodyDiv{
-      margin-top: 0rem;
+      margin-top: .2rem;
     }
     .bodySubDiv {
         font-size: 1rem;
@@ -104,6 +123,7 @@
       .topCircle {
           height: 22vmin;
           margin-top: .5rem;
+          margin-right: 1rem;
       }
       .bodyHead{
           margin-left: 2rem;
@@ -117,6 +137,11 @@
         font-size: .8rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+      }
+      .bodyLinkContact{
+        font-size: .8rem;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
       }
     }
   

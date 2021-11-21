@@ -1,0 +1,87 @@
+
+.flowDiagramDiv{
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 40vw;
+    height:50vh;
+    padding: 1.2rem;
+    transform: 'translate(-50%, -50%)';
+    background: #3f7bdb;
+    border-radius: 2rem ;
+}
+
+.insideDiv{
+    width: 40vw;
+    height: 50vh;
+    border:solid;
+    border-width: .1rem;
+    border-color: white;
+    border-radius: 2rem;
+}
+
+ .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(49,49,49,0.8);
+}
+
+.joinLinks{
+    display: flex;
+    justify-content:space-evenly;
+    width: 28vw;
+    margin-top: 3vh;
+    margin-left: 6rem;;
+    color: white;
+}
+.iconsDone{
+    color:rgb(243, 250, 244, .3);
+    font-size: 4rem;
+    border:solid;
+    border-color: rgba(252, 245, 245, 0.08);
+    border-radius: 50%;
+    border-width: .4rem;
+}
+
+.hr{
+    width: 6vw;
+    height: .1vh;
+    margin-top:2rem;
+}
+
+.vanish{ 
+    visibility: hidden;
+}
+
+.gifDiv{
+    background: white;
+    width: 35vw;
+    height: 24vh;
+    margin: 5vh;
+    margin-top: 1rem;
+}
+
+.redirect{
+    background: #e4eaf7;
+    color: rgb(60, 94, 245);
+    text-decoration: none;
+    margin-left: 16rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: .9rem;
+    width: 6rem;
+}
+
+.icons{
+    font-size: 4rem;
+    border:solid;
+    border-color: rgba(252, 245, 245, 0.08);
+    border-radius: 50%;
+    border-width: .4rem;
+}
