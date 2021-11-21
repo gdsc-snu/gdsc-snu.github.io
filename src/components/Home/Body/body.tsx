@@ -4,8 +4,7 @@ import orangecircle from '../../../svgimageFiles/leftOrangeCircle.svg';
 import dottedDesign from '../../../svgimageFiles/dottedDesign.svg'
 //import { Redirect } from "react-router-dom";
 
-
-import './body.css'
+import "./body.css";
 
 export interface BodyProps{
     setToggleBody:(b: boolean) => void,
@@ -29,13 +28,23 @@ const Body = ( {setToggleBody} :BodyProps) => {
                 <br />
                 <img src={dottedDesign} className="dottedDesign" alt="google developer student club" />
 
-             </div>    
-                <img src={logo} className="App-logo" alt="logo" />
-                <img src={orangecircle} className="orangeCircle" alt="google developer student club" />
-            </div>
-            <img src={logo} className="App-logo2" alt="logo" />
+          <br />
+          <img
+            src={dottedDesign}
+            className="dottedDesign"
+            alt="google developer student club"
+          />
         </div>
-    )
-}
+        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src={orangecircle}
+          className="orangeCircle"
+          alt="google developer student club"
+        />
+      </div>
+      <img src={logo} className="App-logo2" alt="logo" />
+    </div>
+  );
+};
 
-export default Body
+export default Body;
