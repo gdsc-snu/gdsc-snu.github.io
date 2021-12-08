@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8 #install the python needed
+      - name: Install script dependencies
+        run: pip install -r .github/workflows/scripts/requirements.txt
       - name: Fetch event and render redirect # run the run.py to get the latest data
         run: |
           python ./.github/workflows/scripts/events_linker.py
