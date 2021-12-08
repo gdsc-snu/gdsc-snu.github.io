@@ -1,0 +1,31 @@
+name: Events Link Shortener CI
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 #install the python needed
+      - name: Fetch event and render redirect # run the run.py to get the latest data
+        run: |
+          python ./.github/workflows/scripts/events_linker.py
+      - name: Deploy the change
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout gh_pages
+          git add -A
+          git commit -m "Update Events Link"
+          git push
