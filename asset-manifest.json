@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0035ddd0.chunk.css",
-    "main.js": "/static/js/main.8dcdad21.chunk.js",
-    "main.js.map": "/static/js/main.8dcdad21.chunk.js.map",
+    "main.css": "/static/css/main.c69f7ee5.chunk.css",
+    "main.js": "/static/js/main.54d3857c.chunk.js",
+    "main.js.map": "/static/js/main.54d3857c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488fb279.js",
     "runtime-main.js.map": "/static/js/runtime-main.488fb279.js.map",
     "static/js/2.02b43ed1.chunk.js": "/static/js/2.02b43ed1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2c366465.chunk.js": "/static/js/3.2c366465.chunk.js",
     "static/js/3.2c366465.chunk.js.map": "/static/js/3.2c366465.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0035ddd0.chunk.css.map": "/static/css/main.0035ddd0.chunk.css.map",
+    "static/css/main.c69f7ee5.chunk.css.map": "/static/css/main.c69f7ee5.chunk.css.map",
     "static/js/2.02b43ed1.chunk.js.LICENSE.txt": "/static/js/2.02b43ed1.chunk.js.LICENSE.txt",
     "static/media/dottedDesign.68fcc0a9.svg": "/static/media/dottedDesign.68fcc0a9.svg",
     "static/media/facebookLogo.10bcc840.svg": "/static/media/facebookLogo.10bcc840.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.488fb279.js",
     "static/js/2.02b43ed1.chunk.js",
-    "static/css/main.0035ddd0.chunk.css",
-    "static/js/main.8dcdad21.chunk.js"
+    "static/css/main.c69f7ee5.chunk.css",
+    "static/js/main.54d3857c.chunk.js"
   ]
 }
