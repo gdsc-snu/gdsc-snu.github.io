@@ -1,5 +1,5 @@
 .headerDiv{
-    height: 7vh;
+    height: 12vh;
     width: 100vw;
     display: flex;
     color:rgb(146, 142, 137);
@@ -7,11 +7,14 @@
 }
 .title{
     font-size: 2rem;
+    font-family: Poppins;
+
 }
 
 .headerLogo{
-    height: 3vmin;
-    margin: 1.5rem;
+    height: 40px;
+    padding: 28px 25px 0 25px;
+
 }
 
 @media (max-width: 425px) {

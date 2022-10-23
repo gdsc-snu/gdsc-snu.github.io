@@ -10,6 +10,13 @@ export interface BodyProps{
     setToggleBody:(b: boolean) => void,
 }
 
+const joinGDSC = () => {
+    window.open("https://gdsc.community.dev/sister-nivedita-university-kolkata/", "_blank");
+}
+
+const contactGDSC = () => {
+    window.open("https://discord.com/invite/c5fEPAsjcg", "_blank");
+}
 const Body = ( {setToggleBody} :BodyProps) => {
     return (
         <div className='bodyDiv' >
@@ -23,10 +30,16 @@ const Body = ( {setToggleBody} :BodyProps) => {
                       web, mobile, and google technologies in a peer-to-peer 
                       learning environment. 
                 </p> 
-                <button onClick={ () => setToggleBody(false)}className='bodyLink'> Join Us</button>
+                {/* <button onClick={ () => setToggleBody(false)}className='bodyLink'> Join Us</button>
                 <a className='bodyLinkContact' href="https://discord.com/invite/c5fEPAsjcg" target="_blank" rel="noreferrer"> Contact Us</a>
                 <br />
-                <img src={dottedDesign} className="dottedDesign" alt="google developer student club" />
+                <img src={dottedDesign} className="dottedDesign" alt="google developer student club" /> */}
+                <div className='buttonArea'>
+                  
+                  <button className='joinusbtn' onClick={joinGDSC}>Join Us</button>
+                  <button className='contactusbtn' onClick={contactGDSC}>Contact Us</button>
+
+                </div>
 
           <br />
           <img
