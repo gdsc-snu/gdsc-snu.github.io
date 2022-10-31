@@ -52,6 +52,7 @@
     color:#6D6D6D;
     font-size: 1.5rem;
     margin-left: 2rem;
+    font-family: Poppins;
 
 }
 .dottedDesign{
@@ -61,10 +62,42 @@
 
 .bodyHead{
     margin-left: 2rem;
+    font-family: Poppins;
 }
 
 .orangeCircle{
     height: 7vh;
+}
+.buttonArea {
+  display: flex;
+  gap: 20px;
+  margin-left: 2rem;
+}
+.joinusbtn {
+  background: #4285F4;
+  color: antiquewhite;
+  text-decoration: none;
+  padding: .5rem;
+  border-radius: 1rem;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  font-size: .9rem;
+  border: 0;
+  font-family: Poppins;
+  cursor: pointer;
+}
+.contactusbtn {
+  background: #e4eaf7;
+  color: rgb(60, 94, 245);
+  text-decoration: none;
+  padding: .5rem;
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: .9rem;
+  border: 0;
+  font-family: Poppins;
+  cursor: pointer;
 }
 
 .App-logo {
